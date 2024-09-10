@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>青年网络安全教育平台</title>
-    <link rel="stylesheet" href="内置.css">
+    <link rel="stylesheet" href="内置.css  ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-
     <header>
         <section class="hero">
-            <h1>青年网络安全教育平台</h1>
+            <h1>青年网络安全校园日</h1>
             <p>提升网络安全意识，保护个人信息安全。</p>
-            <button id="learn-more-btn">了解更多</button>
+            <button id="learn-more-btn" onclick="learnMore()">了解更多</button>
         </section>
         <nav class="navbar">
             <ul class="nav-list">
@@ -25,7 +25,7 @@
             </ul>
         </nav>
     </header>
-
+    
     <main>
         <section class="three-column-layout">
             <div class="left-column">
@@ -41,8 +41,8 @@
                 <div class="image-container">
                     <img id="image-slider" src="example.jpg" alt="示例图片" height="300" width="200">
                     <div class="button-container">
-                        <button id="prev-btn">&lt;</button>
-                        <button id="next-btn">&gt;</button>
+                        <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -58,10 +58,31 @@
                 </article>
             </div>
         </section>
+    
+        <section class="tips-and-resources">
+            <div class="tips-section">
+                <h2>网络安全小贴士</h2>
+                <ul>
+                    <li>定期更新密码，使用强密码组合。</li>
+                    <li>不要随意点击不明链接，防止钓鱼攻击。</li>
+                    <li>安装并定期更新防病毒软件。</li>
+                    <li>谨慎处理个人信息，避免在公共网络上传输敏感数据。</li>
+                </ul>
+            </div>
+    
+            <div class="resources-section">
+                <h2>网络安全资源</h2>
+                <ul>
+                    <li><a href="https://www.cyber.gov.au/" target="_blank">澳大利亚网络安全中心</a></li>
+                    <li><a href="https://www.ncsc.gov.uk/" target="_blank">英国国家网络安全中心</a></li>
+                    <li><a href="https://www.us-cert.gov/" target="_blank">美国计算机应急准备小组</a></li>
+                    <li><a href="https://www.enisa.europa.eu/" target="_blank">欧洲网络与信息安全局</a></li>
+                </ul>
+            </div>
     </main>
-
+    
     <footer>
-        <p>&copy; 2023 青年网网络安全教育平台</p>
+        <p>&copy; 2024 青年网络安全教育平台</p>
     </footer>
 
 </body>
